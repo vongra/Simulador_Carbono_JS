@@ -1,0 +1,22 @@
+{
+  "name": "carbon-cycle-simulator",
+  "version": "1.0.0",
+  "description": "Simulador do Ciclo Biogeoquímico do Carbono",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "keywords": ["carbon", "cycle", "biogeochemical", "simulation"],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "html2canvas": "^1.4.1",
+    "next": "^14.2.33",
+    "plotly.js": "^3.1.2",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-plotly.js": "^2.6.0"
+  }
+}
