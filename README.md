@@ -1,15 +1,17 @@
 # Simulador do Ciclo Biogeoquímico do Carbono
 
-Simulação interativa do ciclo do carbono com modelagem matemática precisa baseada em equações diferenciais (Runge-Kutta 4ª ordem).
+Simulação interativa do ciclo do carbono com modelagem matemática baseada em equações diferenciais (Runge-Kutta 4ª ordem).
 
-## 🌍 Características
+Simulador desenvolvido por Fábio Batista Muniz, Gabriel Alcantara Gomes Carneiro, Vinicius Farjalla, Tainá Figueroa Figueiredo. 
 
-- **Modelagem Matemática Rigorosa**: Sistema de 7 reservatórios (Atmosfera, Vegetação, Solos, Oceanos, Combustíveis Fósseis, Rochas) com 13 processos de transferência
+## 🌍 Características Gerais
+
+- **Modelagem Matemática Educativa**: Sistema de 7 reservatórios (Atmosfera, Vegetação, Solos, Oceanos, Combustíveis Fósseis, Rochas) com 13 processos de transferência
 - **Integração Numérica RK4**: Método Runge-Kutta de 4ª ordem com subpassos adaptativos para estabilidade
 - **Conservação de Massa**: Garantia matemática de conservação do carbono total (~100 milhões GtC)
 - **Visualização Dinâmica**: Caixas que mudam de tamanho proporcionalmente aos estoques
 - **Controles Interativos**: 
-  - 4 processos naturais com sliders (Fotossíntese, Respirações, Decomposição)
+  - 4 processos naturais com sliders (Fotossíntese, Respirações (auto. e hetero.), Decomposição)
   - 2 processos humanos com inputs diretos (Desmatamento, Queima de Combustíveis Fósseis)
   - Controle de velocidade (0-50 anos/segundo)
   - Botão pausar/continuar
@@ -177,7 +179,7 @@ carbon-cycle-simulator/
 
 ## 🔬 Validação Científica
 
-O simulador preserva rigorosamente:
+O simulador preserva:
 
 1. **Conservação de Massa**: Total de carbono constante (±0.001%)
 2. **Equações Diferenciais**: RK4 com precisão de 4ª ordem
